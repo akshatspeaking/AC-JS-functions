@@ -1,24 +1,24 @@
 ## Function Defination-writeCode
 
-1.  Define a function named `sayHello` when called `alert` saying "Hello JavaScript".
+1.  Define a function named `sayHello`, which on calling will display an `alert` saying "Hello JavaScript".
 
     - Call above function.
     - Store the return value in a variable named `one`
-    - What is the `typeof` the value in `one`
+    - What is the `typeof` the value in `one`?
 
-2.  Change function (from Part 1 above) to accept name from user using `prompt` and store it in a variable named `usename` and alert message saying `Hello username`.
+2.  Change function (from Part 1 above) to accept name from user using `prompt` and store it in a variable named `username` and alert message saying `Hello <username>`.
 
     - Call above function.
     - Store the return value in a variable named `two`
-    - What is the `typeof` the value in `two`
+    - What is the `typeof` the value in `two`?
 
-3.  Change the function (from Part 2 above) to accept `username` as a parameter not from prompt.
+3.  Change the function (from Part 2 above) to accept `username` as a parameter, not from prompt.
 
-4.  Change (from Part 4 above) return the message `Hello username` instead of alerting it.
+4.  Change the function (from Part 2 above) to `return` the message `Hello <username>` instead of alerting it.
 
     - Call above function.
     - Store the return value in a variable named `four`
-    - What is the `typeof` the value in `four`
+    - What is the `typeof` the value in `four`?
 
 ## writeQuiz
 
@@ -77,11 +77,11 @@ Why you can store function as a value in a variable? Explain with example.
 
 ## Different Function Types-writeCode
 
-For the given problems write do the following:
+For the given problems, do the following:
 
 1. Write a Function Declaration
 2. Write a Function Expression
-3.
+3. Write an Arrow Function
 4. Write a Arrow Function with curly brackets (if possible)
 5. Function Execution
 6. Store the value of function execution in a variable
@@ -128,7 +128,7 @@ Do the same for the following problems:
 ```js
 /**
  Write a function named addOne that accepts a number,
- add one to the given value and return it(hint: use return keyword).
+ adds one to the given value and return it. (hint: use return keyword).
  */
 //1. Write a Function Decleration
 
@@ -149,8 +149,8 @@ Do the same for the following problems:
 
 ```js
 /**
- Write a function named substractOne that accepts a number,
- substract one from the given value and return it. (hint: use return keyword)
+ Write a function named subtractOne that accepts a number,
+ subtract one from the given value and return it. (hint: use return keyword)
  */
 //1. Write a Function Decleration
 
@@ -172,7 +172,7 @@ Do the same for the following problems:
 ```js
 /**
  Write a function named sum that accepts two numbers,
- returns the sum of the passed value.
+ returns the sum of the passed values.
  */
 //1. Write a Function Decleration
 
@@ -215,7 +215,7 @@ Do the same for the following problems:
 
 ```js
 /**
- Write a function named isGreater that accepts two numbers x and y and returns true if x is greater than y or return false.
+ Write a function named isGreater that accepts two numbers x and y and returns true if x is greater than y or otherwise returns false.
  */
 //1. Write a Function Decleration
 

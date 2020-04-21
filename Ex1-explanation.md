@@ -1,6 +1,6 @@
 # Store of action(Function)
 
-## What is function?-readText
+## What is function? -readText
 
 - Function is a store of steps you take to perform any specific task.
 - You can execute a function by adding `()` in-front of function name.
@@ -11,7 +11,7 @@
 - Functions always return a value. In JavaScript, if there is no return statement it will return `undefined`
 - **Functions are objects.**
 
-For example you want a function to take two input from user and convert the value in number and sum them. So the steps to do this would be
+For example you want a function to take two input from user and convert the values to number and sum them. So the steps to do this would be
 
 1. Take a number using `prompt` from user and store them in variable named `numA`
 2. Take another number and store them in variable called `numB`
@@ -66,7 +66,7 @@ When we call the above function (`answerToLife()`) it will return `42` as a valu
 
 ### Parameters vs. Arguments.
 
-Parameters are used while defining a function to create placeholders inside a fucntion. You can define multiple placeholders seperated by comma. In the below example you `numA` and `numB` is the **parameters**.
+Parameters are used while defining a function to create placeholders inside a function. You can define multiple placeholders seperated by comma. In the below example, `numA` and `numB` are the **parameters**.
 
 ```js
 function add(numA, numB) {}
@@ -82,12 +82,12 @@ Define a function that does the following:
 
 - Let user enter a name using `prompt`
 - Using alert display `Hello Name`
-- Now convert the name to `uppercase` letter using `.toUpperCase()` function like `"hello".toUpperCase()`
+- Now convert the name to `uppercase` letters using `.toUpperCase()` function like `"hello".toUpperCase()`
 - If the name of user is `Sam` instead of `Hello Sam` say `Welcome Sam`.
 
 ### Function Expression
 
-You can store `value` in a variable and function in JS are objects and object is value. So you can also store a function in a variable. This kind of function where you store them like an expression in a variable is called _function expression._
+As you have learnt already. you can store any `value` in a `variable`. In JS, functions are objects, and object is also type of value. So, you can also store a function in a variable. This kind of function where you store them like an expression in a variable is called _function expression._
 
 Example:
 
@@ -122,11 +122,11 @@ Arrow function is always a anonymous function.
 var add = () => 21; // implicit return
 ```
 
-### Fucntion Types:
+### Function Types:
 
 Read through the below example to understand different types of functions.
 
-Define a function that accepts a `number` and `returns` string converting the number into string.
+Define a function that accepts a `number` and `returns` string, by converting the number into string.
 
 ```js
 // Function Declaration

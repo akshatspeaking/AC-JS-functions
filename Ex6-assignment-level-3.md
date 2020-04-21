@@ -4,15 +4,15 @@
 
 ```js
 /**
- Write a function named calculator that accepts three parameter
+ Write a function named calculator that accepts three parameters
  - operation ('add', 'sub', 'mul','divide')
  - num1 (number)
  - num2 (number)
  and if operation is
-    - 'add' returns num1 + num2.
-    - 'sub' returns num1 - num2 (if num1 is smaller than num2 alert "First number should not be smaller than second number.)
-    - 'mul' return num1 * num2
-    - 'div' return num1 / num2 (if num1 is smaller than num2 alert "First number should not be smaller than second number.)
+    - 'add' : returns num1 + num2.
+    - 'sub' : returns num1 - num2 (if num1 is smaller than num2 alert "First number should not be smaller than second number.)
+    - 'mul' : return num1 * num2
+    - 'div' : return num1 / num2 (if num1 is smaller than num2 alert "First number should not be smaller than second number.)
 
   also print the operation in alert after operation like if 'add' => 5 + 66 = 71 etc
  */
@@ -90,7 +90,7 @@ function knowWhy(value) {
 knowWhy(211);
 ```
 
-- Output of the above code
+- Output of the above code.
 - Is the code above valid or not?
 - Explain the reason.
 
@@ -103,6 +103,6 @@ function isItIf(ifElse) {
 isItIf(if(true){console.log('Testing')});
 ```
 
-- Output of the above code
+- Output of the above code.
 - Is the code above valid or not?
 - Explain the reason.

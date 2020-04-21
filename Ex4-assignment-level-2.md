@@ -4,15 +4,15 @@
 
 ```js
 /**
- Write a function named calculator that accepts three parameter
+ Write a function named calculator that accepts three parameters
  - operation ('add', 'sub', 'mul','divide')
  - num1 (number)
  - num2 (number)
  and if operation is
-    - 'add' returns num1 + num2.
-    - 'sub' returns num1 - num2
-    - 'mul' return num1 * num2
-    - 'div' return num1 / num2
+    - 'add' : returns num1 + num2.
+    - 'sub' : returns num1 - num2
+    - 'mul' : return num1 * num2
+    - 'div' : return num1 / num2
  */
 //1. Write a Function Decleration
 
@@ -35,15 +35,15 @@
 
 ```js
 /**
- Write a function named calculator that accepts three parameter
+ Write a function named calculator that accepts three parameters
  - operation ('add', 'sub', 'mul','divide')
  - num1 (number)
  - num2 (number)
  and if operation is
-    - 'add' returns num1 + num2.
-    - 'sub' returns num1 - num2
-    - 'mul' return num1 * num2
-    - 'div' return num1 / num2
+    - 'add' : returns num1 + num2.
+    - 'sub' : returns num1 - num2
+    - 'mul' : return num1 * num2
+    - 'div' : return num1 / num2
  */
 //1. Write a Function Decleration
 
@@ -66,7 +66,7 @@
 
 ```js
 /**
- Write a function named grade that accepts a number (marks below 500) calculates the percentage out of (500) and returns the grade as following
+ Write a function named grade that accepts a number (marks below 500), calculates the percentage (out of 500) and returns the grade as following
  * "A": 90-100%
  * "B": 80-89%
  * "C": 70-79%
